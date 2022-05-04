@@ -1,13 +1,9 @@
-En la documentación de TCOD está el Getting Started 
-(https://python-tcod.readthedocs.io/en/latest/tcod/getting-started.html ), 
-que nos presenta dos formas de iniciar la consola. 
-
-La primera versión es una consola de tamaño fijo (fixed-size console) que presenta una ventana que al redimensionar los objetos se adaptan al nuevo tamaño. 
-
-El segundo ejemplo es una consola de tamaño dinámico (Dinamically-sized console). Este es el código del ejemplo:
-
 #!/usr/bin/env python3
 import tcod
+
+#Test de la consola dinamica (redimensionable)
+
+#sacado de https://python-tcod.readthedocs.io/en/latest/tcod/getting-started.html
 
 WIDTH, HEIGHT = 720, 480  # Window pixel resolution (when not maximized.)
 FLAGS = tcod.context.SDL_WINDOW_RESIZABLE | tcod.context.SDL_WINDOW_MAXIMIZED
