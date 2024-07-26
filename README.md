@@ -21,3 +21,5 @@ Donde tambien encontraremos los distintos capítulos de su documentación, los c
 Finalmente debemos tener conocimientos e instalar la biblioteca Numpy la cual se utilizará en conjunto con TCOD.
 
 Manos a la obra!
+
+https://github.com/Danomax/Complete-Roguelike-Tutorial-using-python-numpy-tcod/wiki
